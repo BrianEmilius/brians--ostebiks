@@ -1,0 +1,28 @@
+.primaryNavigation {
+	position: fixed;
+	top: 3em;
+	right: 0;
+	background-color: var(--primaryColor);
+	height: calc(100vh - 3em);
+	width: 80%;
+	transform: translateX(100%);
+	transition: transform 500ms cubic-bezier(1,.05,.27,1.55);
+}
+
+.primaryNavigation--show {
+	transform: translateX(0);
+}
+
+.primaryNavigation__menu {
+	padding: 1em;
+	list-style: none;
+}
+
+.primaryNavigation__link {
+	text-decoration: none;
+}
+
+.burgerMenuButton {
+	border: none;
+	background: transparent;
+}

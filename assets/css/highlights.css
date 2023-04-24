@@ -1,0 +1,16 @@
+.highlights {
+	margin-top: 1em;
+}
+
+.highlights__article:not(:last-of-type) {
+	margin-bottom: 2em;
+}
+
+.highlights__image {
+	width: 100%;
+	height: auto;
+}
+
+.highlights__heading, .highlights__text {
+	padding: 0 1em;
+}
