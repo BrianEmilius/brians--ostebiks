@@ -44,10 +44,67 @@
 		</section>
 	</main>
 
+	<footer class="siteFooter">
+		<form
+			action=""
+			class="siteFooter__contactForm"
+			novalidate>
+			<div class="inputField">
+				<label class="inputField__label">
+					Navn
+					<input
+						type="text"
+						class="inputField__input"
+						placeholder="Jens Jensen"
+						name="name"
+						required>
+				</label>
+				<span class="inputField__feedback"></span>
+			</div>
+			<div class="inputField">
+				<label class="inputField__label">
+					Email
+					<input
+						type="email"
+						class="inputField__input"
+						placeholder="din@email.dk"
+						name="email"
+						required>
+				</label>
+				<span class="inputField__feedback"></span>
+			</div>
+			<div class="inputField">
+				<label class="inputField__label">
+					Telefon
+					<input
+						type="tel"
+						class="inputField__input"
+						placeholder="12345678"
+						name="phone"
+						required>
+				</label>
+				<span class="inputField__feedback"></span>
+			</div>
+			<div class="inputField">
+				<label class="inputField__label">
+					Besked
+					<textarea
+						class="inputField__text"
+						placeholder="Hej Brians Ostebiks. I laver verdens bedste ost!"
+						name="message"
+						required></textarea>
+				</label>
+				<span class="inputField__feedback"></span>
+			</div>
+			<button type="submit">Send besked</button>
+		</form>
+	</footer>
+
 	<script src="https://unpkg.com/feather-icons"></script>
 	<script>
 		feather.replace()
 	</script>
 	<script src="./assets/scripts/burgermenu.js" defer></script>
+	<script src="./assets/scripts/contactForm.js" defer></script>
 </body>
 </html>

@@ -1,0 +1,25 @@
+.siteFooter {
+	height: 20em;
+	background-color: hsl(0, 0%, 6%);
+	color: hsl(0, 0%, 94%);
+	padding: 1em;
+}
+
+.siteFooter__contactForm {
+	display: flex;
+	flex-direction: column;
+	gap: 1em;
+}
+
+.inputField__label {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.inputField__input, .inputField__text {
+	width: 70%;
+	font-size: inherit;
+	font-family: inherit;
+	padding: .3em;
+}
